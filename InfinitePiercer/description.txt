@@ -1,0 +1,1 @@
+All friendly projects will pierce up to 1000 entities before removing themselves.

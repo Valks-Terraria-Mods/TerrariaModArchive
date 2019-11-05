@@ -1,0 +1,1 @@
+Removes all immunity frames from friendly projectiles.
