@@ -14,8 +14,8 @@ namespace FastExtractinator
         {
             base.SetDefaults(item);
 
-            // 424 is silt block
-            if (item.type == 424) {
+            // 424 is silt block, 1103 is slush, 3347 is desert fossil
+            if (item.type == 424 || item.type == 1103 || item.type == 3347) {
                 item.useTime = 0;
                 item.reuseDelay = 0;
             }
